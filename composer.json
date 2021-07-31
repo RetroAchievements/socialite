@@ -1,0 +1,34 @@
+{
+    "name": "retroachievements/socialite",
+    "description": "Laravel Socialite Provider for RetroAchievements.org",
+    "type": "library",
+    "keywords": [
+        "RetroAchievmenets",
+        "retro",
+        "achievements",
+        "Laravel",
+        "Socialite"
+    ],
+    "homepage": "https://github.com/retroachievements/socialite",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "RetroAchievements\\Socialite\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {}
+}
